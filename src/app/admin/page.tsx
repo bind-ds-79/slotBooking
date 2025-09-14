@@ -33,7 +33,7 @@ export default function AdminBookings() {
 
   return (
     <div className="p-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-      {bookings.map((b: any) => (
+      {bookings.map((b) => (
         <div
           key={b._id}
           className="bg-white shadow-lg rounded-2xl p-5 border border-gray-200 hover:shadow-xl transition"
@@ -74,3 +74,5 @@ export default function AdminBookings() {
     </div>
   );
 }
+
+

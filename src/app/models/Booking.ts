@@ -1,6 +1,7 @@
 import mongoose, { Schema, Document } from "mongoose";
 
 export interface InterFaceBooking extends Document {
+  // _id:string; //add extra
   eventTypeId: string;
   startTime: Date;
   endTime: Date;
